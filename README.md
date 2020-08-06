@@ -18,7 +18,7 @@ The first step is to get the CODE required to get the ACCESS TOKEN. Run the foll
 ./get_code.sh
 ```
 
-it will print an URL you have to insert into the address bar of your browser. The browser will redirect to the URL specified in the credentials.sh file with the CODE attached. Remove the "#\_" characters from the code and copy it in the credentials.sh CODE field.
+it will automatically open your default browser. The browser will redirect to the URL specified in the credentials.sh file with the CODE attached. Remove the "#\_" characters from the code and copy it in the credentials.sh CODE field.
 
 ```
 CODE="AQDa-oNW_6 ..."
