@@ -37,3 +37,14 @@ it will print a JSON file with the ACCESS TOKEN. Copy it in the credentials.sh A
 ```
 ACCESS_TOKEN="IGQVJWOHVN ..."
 ```
+
+## Get profile info
+
+The third step is to retrieve profile info for your or other accounts. The command is:
+
+```
+./get_user_profile.sh [instagram profile name] 
+```
+
+if no profile is specified in input the script shows your profile, the one configured in credentials.sh.
+
